@@ -1,0 +1,25 @@
+{
+  "author" : "吴嘉豪",
+  "commands" : [
+    {
+      "script" : "replaceSelectedText.js",
+      "name" : "Replace Selected Text",
+      "shortcut": "command control shift r",
+      "handlers" : {
+        "run" : "replaceSelectedText"
+      },
+      "identifier" : "com.bohemiancoding.sketch.runscriptidentifier"
+    }
+  ],
+  "menu" : {
+    "title" : "Replace Selected Text",
+    "items" : [
+      "com.bohemiancoding.sketch.runscriptidentifier"
+    ]
+  },
+  "identifier" : "com.example.sketch.84337a28-c429-4267-a475-b1496887c64a",
+  "version" : "1.0",
+  "description" : "批量替换选中文本",
+  "authorEmail" : "kaho.business@gmail.com",
+  "name" : "Replace Selected Text"
+}
